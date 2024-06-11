@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kranky&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kranky&display=swap"
+    rel="stylesheet">
+  <title>Minjoo Website</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Josefin Sans", sans-serif;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 80vh;
+      text-align: center;
+      box-sizing: border-box;
+    }
+    .Top {
+      background-color: #FEFAE1;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+      padding-top: 100px;
+    }
+    .image-Container {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+
+    }
+    .text-Container h2 {
+      color: #CD8EFF;
+    }
+
+    .smile {
+      display:flex;
+      width: 20%;
+      max-width: 200px;
+      position: absolute;
+    }
+    .heart {
+      display: flex;
+      position: relative;
+      width: 100%;
+      max-width: 600px;
+    }
+    .text-Container {
+      display: block;
+      margin-top: 30px;
+      padding-bottom: 30px;
+
+    }
+    h1 {
+      font-family: "Kranky", serif;
+      font-size: xxx-large;
+      color: #9F2AFB;
+    }
+    h2 {
+      font-family: "Josefin Sans", sans-serif;
+      font-weight: 500;
+      margin-top: -20px;
+      color: #CD8EFF;
+    }
+    .middle-container {
+      display: block;
+      align-items: center;
+      text-align: center;
+      
+    }
+    .profile {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      border-radius: 200px;
+    }
+    .intro {
+      width: 35%;
+      text-align: center;
+      margin: auto;
+      padding-bottom: 30px;
+    }
+    hr {
+      border: dotted #CD8EFF 6px;
+      border-bottom: none;
+      width: 4px;
+      margin: 100px auto;
+    }
+
+    .skill {
+      display: block;
+      margin: 100px auto;
+    }
+    .skillset {
+      display: grid;
+      grid-template-columns: 0.5fr 1fr;
+      grid-template-rows: repeat(1, 1fr);
+      width: 50%;
+      margin: 60px auto 0 auto;
+      text-align: left;
+      row-gap: 2rem;
+    }
+    
+    .meme {
+      display: block;
+
+    } 
+    .dog {
+      width: 90%;
+      padding: 10px;
+    } 
+    .typing {
+      width: 90%;
+      padding: 10px;
+    }
+    
+    .design-description1 {
+      display: block;
+      margin-block-start: 0em;
+      margin-block-end: 0em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding: 5px;
+    }
+
+    .design-description1 h2 {
+      font-weight: 300;
+    }
+    h2 {
+      color: #9F2AFB;
+    }
+    h3 {
+      color: #CD8EFF;
+      font-weight: 500;
+      margin: 5px 0px;
+    }
+    p {
+      font-weight: 300;
+    }
+
+    .ending {
+      display: block;
+      padding: 60px;
+    
+
+      
+    }
+    .ending p {
+      margin: 0 auto;
+      width: 250px;
+    }
+
+    .contact {
+      display: block;
+      width: 200px;
+      background-color: #FFB5DE;
+      border-radius: 100px;
+      color: #FFFFFF;
+      padding: 15px 10px;
+      margin: 20px auto;
+    }
+    .footer {
+      display: block;
+      background-color: #FEFAE1;
+      padding: 30px;
+    }
+    
+      @media (max-width: 870px) {
+        .skillset {
+          grid-template-columns: 1fr;
+
+        }
+        .dog .typing {
+          width: 100%;
+        }
+        .footer {
+          width: 100%;
+          padding: 0;
+
+          padding: 30px 0;
+        }
+        .ending p {
+          width : 80%
+        }
+        .contact{
+          width: 70%;
+          
+        }
+      }
+  </style>
+</head>
+
+<body>
+
+<div class="Top" >
+  <div class="image-Container">
+  <img class="smile pink" src="./Image/fa-solid_smile.png" alt="smilely face">
+  <img class="heart pink" src="./Image/heart.png" alt="heart pattern">
+  </div>
+  <div class="text-Container">
+    <H1>I'm Minjoo</H1>
+    <h2>A Designer</h2>
+  </div>
+</div>
+
+<div class="middle-container">
+  <img class="profile" src="./Image/Profile.png" height="200" alt="profile">
+  <h2>Hello, There!</h2>
+  <p class="intro">I am a UX/UI Designer Based in Vancouver.
+  Enjoy solving problems that people faces in regular basis.
+  I ❤️ ☕️ and 🥐 🎶</p>
+</div>
+
+<hr />
+
+<div class="skill">
+  <h2>My Skill</h2>
+  <div class="skillset">
+    <div class="meme">
+      <img class="typing" src="./Image/typing.gif" alt="typing">
+    </div>
+    <div class="design-description1">
+      <h3>Design & Development</h3>
+      <p>Since I was young, I've loved playing with colors and design tools. Over time, I've helped friends, people and startups,
+      gaining skills in design and coding(html & css)! Creating design for people is always exciting and fulfilling to me.</p>
+    </div>
+    <div class="meme 2">
+      <img class="dog" src="./Image/dog.png" alt="dog">
+      </div>
+      <div class="design-description1">
+        <h3>Cooking & Eat</h3>
+        <p>Recently, I've been really into cooking different cuisines and trying new tastes. Food makes life more enjoyable and fun
+        for me!
+        
+        If you have interesting and delicious recipes, please let me know. I’d love to try yours!</p>  
+      </div>
+    </div>
+    </div> 
+    <hr />
+
+    <div class="ending">
+      <h2>Get in touch</h2>
+      <h3>Let's create something amazing together!</h3>
+      <p>I'd love to hear from you! let’s have a chat about something fun with ☕️. Feel free to reach out💜.</p>
+      <div class="contact" hrf="haileykim206@gmail.com">
+        CONTACT ME
+      </div>
+    </div>
+ 
+
+    </div>
+
+
+  </div>    
+  <div class="footer">
+    <a class="footer-link" href="https://www.linkedin.com/in/minjoohaileykim/">Linkedin</a>
+    <a class="footer-link" href="https://www.minjoo.me/">Website</a>    
+    <p class="copyright">© Minjoo Kim. 2024</p>
+  </div>
+
+</body>
+
+</html>
